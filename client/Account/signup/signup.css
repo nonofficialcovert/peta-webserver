@@ -1,0 +1,44 @@
+#signupform
+{
+width:520px;
+display: grid;
+grid-template-columns:25% 75%;
+margin-top: 20px;
+}
+
+#signupform > h2
+{
+font-size: 30px;
+position: relative;
+margin-bottom: 50px;
+}
+
+#signupform > input 
+{
+width: 100%;
+grid-column: 2;
+justify-self: end;
+font-size: 22px;
+text-align: right;
+margin-bottom: 30px;
+}
+
+#signupform > input::after
+{
+content: "";
+display: block;
+}
+
+#signupform > label
+{
+grid-column:1;
+display: inline-block;
+font-size: 22px;
+}
+
+#signupform > #submit
+{
+width: 20%;
+font-size: 22px;
+
+}
